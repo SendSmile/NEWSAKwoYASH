@@ -20,6 +20,8 @@
 
 <!-- start menu -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<link rel="stylesheet" href="css/jquery.bxslider.css">	
 
 
   <script src="js/common.js"></script>
@@ -35,53 +37,38 @@
 
 <header>
  	
-	<div class="stop">
-		<div id="myCarousel" class="carousel slide">
-			
-			<ol class="carousel-indicators">
-				<li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
-				<li data-target = "#myCarousel" data-slide-to = "1"></li>
-				<li data-target = "#myCarousel" data-slide-to = "2"></li>
-				
-				
-			</ol>
 
-			<div class="carousel-inner">
-				<div class="item active">
-				<h1>Тут будут красивые слова</h1>
-					<img src="images/slider/slide1.jpg" alt="1" class="img-responsive">
-					
-				</div>
-
-				<div class="item ">
-
-				<h1>Что-то красивое </h1>
-					<img src="images/slider/slide3.jpg" alt="1" class="img-responsive">
-				</div>
-
-				<div class="item ">
-
-				<h1>И сюда тоже что-то напишем</h1>
-					<img src="images/slider/slide4.jpg" alt="1" class="img-responsive">
-				</div>
-
-			</div>
-			<a class="carousel-control left" href="#myCarousel" data-slide ="prev"> <span class="icon-prev"></span></a>
-
-			<a class="carousel-control right" href="#myCarousel" data-slide ="next"> <span class="icon-next"></span></a>
-		</div>
-	
-			
-
-				<div class="col-sm-8 logo animated fadelnUp" data-wow-delay=".5s">
+<div class="col-sm-8 col-xs-12 logo animated fadelnUp" data-wow-delay=".5s">
 					<h1><a href="index.html"><span>САкВоЯЖ</span> <br> </a></h1>	
 					<p> одежда <span class="man">для него</span> и <span class="wuman">для нее</span></p> 
 				</div>
 			
-				<div class="col-sm-4 phone number animated wow fadeInRight" data-wow-delay=".5s">
+				<div class="col-sm-4 col-xs-12 phone number animated wow fadeInRight" data-wow-delay=".5s">
 					<span><i class="glyphicon glyphicon-phone"></i>+7 (965) 261 5551</span>
 					<p>Работаем с 9 до 19:00 <br> Без выходных</p>
-				</div>		
+				</div>	 
+
+<ul id="reload-slider" class="bxslider style">
+
+<div class="slide">
+  <li><img class="slide1" src="images/slider/slide1.jpg" /> </li>
+  <h1>Тут будут красивые слова</h1>
+
+</div>
+ 
+<div class="slide">
+  <li><img src="images/slider/slide3.jpg" /> </li>
+  <h1>Тут интерестные слова</h1>
+</div>
+<div class="slide">
+  <li><img src="images/slider/slide4.jpg" /> </li>
+  <h1>А здесь полезные</h1>
+</div>
+
+</ul>
+
+
+					
 	
 	</header>
 
@@ -99,8 +86,8 @@
 <!--content-->
 <div class="content">
 	<div class="container">
-		<div class="content-top">
-		<div class="col-md-12 text">
+		<div class="content-top align">
+		
 			
 		</div>
 			<div class="content-top1">
