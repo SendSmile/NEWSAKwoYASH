@@ -360,7 +360,7 @@ address p {
 
 
 .content-top {
-  padding: 2em 0 1em;
+  padding: 0em 0 2em;
 }
 
 .col-md2 {
@@ -388,9 +388,6 @@ address p {
 
 .map h2 {
     font-size: 24px;
-}
-.footer {
-    padding-top: 0px;
 }
 
 .footer h1 {
@@ -440,6 +437,11 @@ address {
     font-size: 1.5em;
   }
 
+.logof  {
+    color: #000;
+    text-align: center;
+  }
+
 .logo span {
     color: #000;
 }
@@ -471,7 +473,7 @@ address {
   font-weight:20;
 }
  section h2 {
-    padding-top: 75px;
+    padding-top: 0px;
     font-size: 30px;
     text-align: center;
  }
