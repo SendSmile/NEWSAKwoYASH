@@ -8,8 +8,9 @@ $('#reload-slider').click(function(e){
   slider.reloadSlider({
     mode: 'fade',
     auto: true,
-    pause: 4000,
+    pause: 2000,
     speed: 700
   });
 });
-})
+
+  });
